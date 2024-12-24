@@ -1,0 +1,71 @@
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  /* Style the title */
+  .pdf-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the textarea */
+  .pdf-textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: none;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focus effect on the textarea */
+  .pdf-textarea:focus {
+    border-color: #5c6bc0;
+    box-shadow: 0 0 10px rgba(92, 107, 192, 0.3);
+  }
+  
+  /* Style the button */
+  .pdf-button {
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect for the button */
+  .pdf-button:hover {
+    background-color: #3f51b5;
+  }
+  
+  /* Style for mobile responsiveness */
+  @media (max-width: 600px) {
+    .pdf-textarea {
+      max-width: 100%;
+    }
+  
+    .pdf-button {
+      width: 100%;
+    }
+  }
+  
+  
